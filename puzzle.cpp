@@ -51,7 +51,7 @@ int findDuplicate(const int Bananas[], int n)
   }
   for (int i = 0; i < n; i++)
   {
-    if (isFound[Bananas[i]] = true)
+    if (isFound[Bananas[i]] == true)
     {
       return Bananas[i];
     }
